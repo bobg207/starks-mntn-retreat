@@ -12,16 +12,15 @@ body {
 
 ul {
   list-style-type: none;
-  background: blue;
+  margin-right: 1em;
 }
 
 li {
-  background:green;
+  background:none;
 }
 
 a {
   text-decoration: none;
-  color: #0576c2;
 }
 
 header {
@@ -46,7 +45,7 @@ header {
 }
 
 .nav {
-  background: red;
+  background: none;
 }
 
 .page-one-wrapper {
