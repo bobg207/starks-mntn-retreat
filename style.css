@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  background: blue;
+}
+
+li {
+  background:green;
+}
+
+a {
+  text-decoration: none;
+  color: #0576c2;
+}
+
+header {
+  background: rgba(255, 255, 255, .7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 1em;
+}
+
+.site-logo {
+  font-family: Bungee, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5em;
+}
+
+.nav {
+  background: red;
+}
+
+.page-one-wrapper {
+  height: 960px;
+  background: url("tent_platform.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+.welcome {
+  color: white;
+  font-size: 1.5em;
+  width: 50vw;
+  position: absolute;
+  top: 4em;
+  left: 3em;
+}
+
+.p1-welcome {
+  font-size: 1.1em;
+}
+
+.page-two-wrapper {
+  height: 960px;
+  background: url("tent_platform2.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+.page-three-wrapper {
+  height: 960px;
+  background: url("tent_platform3.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 1em;
+}
