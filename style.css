@@ -8,16 +8,18 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 li {
-  background:none;
+  display: inline-block;
 }
 
 a {
@@ -26,7 +28,7 @@ a {
 
 header {
   background: rgba(255, 255, 255, .7);
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   height: 4em;
@@ -36,8 +38,16 @@ header {
   align-items: center;
 }
 
+header img {
+  margin-top: .3em;;
+}
+
 .logo {
   margin-left: 1em;
+  height: 100%;
+  width: 100%;
+  background-image: url("smr_logo.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .site-logo {
@@ -72,7 +82,7 @@ header {
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +149,7 @@ header {
 
 /* make the nav menu */
 .menu > div {
-  background: rgba(218, 207, 207, 0.75);
+  background: rgba(98, 100, 240, 0.9);
   width: 50vw;
   height: 50vh;
   display: flex;
@@ -159,7 +169,7 @@ header {
 }
 
 .menu > div > div > ul > li {
-  color: black;
+  color: #fff;
   font-size: 1.15rem;
   padding: 1rem;
 }
@@ -189,15 +199,18 @@ header {
   background: url("tent_platform.jpg") no-repeat center;
   background-size: cover;
   margin-bottom: 1em;
+  z-index: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .welcome {
   color: white;
   font-size: 1.5em;
   width: 50vw;
-  position: absolute;
-  top: 4em;
-  left: 3em;
+  margin: 4em 0 0 1em;
+  z-index: 0;
 }
 
 .p1-welcome {
