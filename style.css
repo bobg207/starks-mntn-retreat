@@ -30,27 +30,49 @@ body {
 }
 
 .page-two-wrapper {
-  color: #fff;
   height: 960px;
-  background: url("tent_platform2.jpg") no-repeat center;
+  background: url("tent_platform3.jpg") no-repeat center;
   background-size: cover;
   z-index: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
 }
 
 .favorites {
-  color: #fff;
   font-size: 1.5em;
-  width: 50vw;
-  margin: 4em 0 0 1em;
-  z-index: 0;
+  width: 60vw;
+  margin: 2.5em 0 0 0;
+  padding: .5em .5em 0 1em;
+  color: #fff;
 }
 
 .activity {
-  color: #fff
+  background: rgba(39, 33, 33, 0.4);
+  border-radius: 10px;
+  margin: 0 0 .3em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.list-heading {
+  color: #fff;
+  font-weight: bold;
+}
+
+.activity-list,
+.list-heading {
+  margin: .2em 0 .2em 0;;
+  padding: 0 1em;
+}
+
+.activity-list li {
+  margin-left: .5em;
+}
+
+.activity-list a {
+  color: #fff;
 }
 
 .page-three-wrapper {
