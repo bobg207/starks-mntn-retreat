@@ -46,6 +46,12 @@ body {
   color: #fff;
 }
 
+.favorites p {
+  background: rgba(39, 33, 33, 0.5);
+  border-radius: 10px;
+  padding: .5em 0 .5em .5em;
+}
+
 .to-do {
   display: flex;
   flex-direction: column;
@@ -87,7 +93,30 @@ body {
 
 .page-three-wrapper {
   height: 960px;
-  background: url("tent_platform3.jpg") no-repeat center;
+  background: url("tent_platform4.jpg") no-repeat center;
   background-size: cover;
-  margin-bottom: 1em;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  margin: 4.5em 1em 0 1em;
+  background: rgba(219, 219, 226, .6);
+  padding-left: .5em;
+  border-radius: 1em;
+}
+
+.included-wrapper,
+.bring-wrapper,
+.expectations-wrapper {
+  margin: .5em 1em 0 1em;
+  background: rgba(219, 219, 226, .5);
+  padding: .5em;
+  border-radius: 1em;
+}
+
+.page-three-wrapper li {
+  list-style: square inside;
 }
