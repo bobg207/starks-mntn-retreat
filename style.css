@@ -113,7 +113,7 @@ body {
 .expectations-wrapper {
   margin: .5em 1em 0 1em;
   background: rgba(219, 219, 226, .5);
-  padding: .5em;
+  padding: 0 .5em 0 .5em;
   border-radius: 1em;
 }
 
