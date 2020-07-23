@@ -137,7 +137,6 @@ body {
   z-index: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .directions {
@@ -150,7 +149,6 @@ body {
 }
 
 iframe {
-  margin: 0;
   height: 75vh;
   width: 100%;
 }
