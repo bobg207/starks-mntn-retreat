@@ -126,8 +126,8 @@ header img {
 
 .menu {
   position: fixed;
-  top: 4em;
-  right: 1em;
+  top: .75em;
+  right: .5em;
   width: 35%;
   height: 35%;
   visibility: hidden;
@@ -139,11 +139,10 @@ header img {
 
 /* make the nav menu */
 .menu > div {
-  background: rgba(81, 95, 77, 0.8);
+  background: rgba(81, 95, 77, 0.9);
   width: 40vw;
-  height: 40vh;
+  height: 20vh;
   display: flex;
-  flex: none;
   align-items: center;
   justify-content: center;
   transform: scaleX(0);
@@ -153,12 +152,10 @@ header img {
 .menu > div > div {
   text-align: left;
   max-width: 40vw;
-  max-height: 40vh;
+  max-height: 20vh;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
-
-
 
 .menu > div > div > ul > li {
   color: #fff;
