@@ -142,7 +142,7 @@ body {
 
 .directions {
   height: 15vh;
-  margin: 6em 1em 0 1em;
+  margin: 5em 1em 0 1em;
 }
 
 .email-address {
@@ -151,6 +151,6 @@ body {
 
 iframe {
   margin: 0;
-  height: 70vh;
+  height: 75vh;
   width: 100%;
 }
