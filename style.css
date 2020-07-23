@@ -131,7 +131,26 @@ body {
   list-style: square inside;
 }
 
+.page-four-wrapper {
+  background: rgb(196, 163, 104);
+  height: 100vh;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directions {
+  height: 15vh;
+  margin: 6em 1em 0 1em;
+}
+
+.email-address {
+  font-weight: bold;
+}
+
 iframe {
-  height: 600px;
+  margin: 0;
+  height: 70vh;
   width: 100%;
 }
